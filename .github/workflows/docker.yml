@@ -11,7 +11,7 @@ jobs:
 
     - name: Build images
       run: |
-          cd Part 7a
+          cd Part7a
           docker build -t ${{ secrets.DOCKER_USERNAME }}/al-app:latest ./app
 
           ${{ secrets.DOCKER_USERNAME }}
